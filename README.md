@@ -5,10 +5,9 @@ Rest Service using Spring 5.x, Hibernate 5.x, Java 8 and Hsqldb
 
 To setup the project for review do the following:
 1. Download the project.
-2. Download <a href="https://maven.apache.org/download.cgi">apache maven</a>. 
-3. Install  <a href="https://maven.apache.org/download.cgi">apache maven</a> 
-4. Run command __mvn package__ to install the project dependencies.
-5. Run command __mvn tomcat7:run-war__ in the root directory.
+2. Install  <a href="https://www.mkyong.com/maven/how-to-install-maven-in-windows/">apache maven</a> 
+3. Run command __mvn package__ to install the project dependencies.
+4. Run command __mvn tomcat7:run-war__ in the root directory.
 
 ## REST API 
 __ENDPOINTS__
