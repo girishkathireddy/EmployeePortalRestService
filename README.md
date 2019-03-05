@@ -97,7 +97,7 @@ __Response__
  }
 ```
 
-### Get API call to Sort Empployee List
+### Get API call to Sort Employee List
 __Input__ 
 ```
 POSTMAN API get Call :http://localhost:8080/portal/employee/filter?sortBy=salary&sort=desc
