@@ -8,6 +8,7 @@ To setup the project for review do the following:
 2. Install  <a href="https://www.mkyong.com/maven/how-to-install-maven-in-windows/">apache maven</a> 
 3. Run command __mvn package__ to install the project dependencies.
 4. Run command __mvn tomcat7:run-war__ in the root directory.
+5. Project <a href="https://github.com/girishkathireddy/EmployeePortalRestService/tree/master/src/main/resources">Sequence diagram and UML diagrams </a> 
 
 ## REST API 
 __ENDPOINTS__
@@ -42,7 +43,7 @@ __Response__
 {"Data saved"}
 ```
 ### Get API call to retrive all Employees 
-
+__Input__ 
 ```
 POSTMAN API get Call :http://localhost:8080/portal/employee/getAll
 ```
@@ -77,7 +78,7 @@ __Response__
 ```
 
 ### Get API call for Employee by ID
-
+__Input__ 
 ```
 POSTMAN API get Call :http://localhost:8080/portal/employee/get/1
 ```
@@ -97,7 +98,7 @@ __Response__
 ```
 
 ### Get API call to Sort Empployee List
-
+__Input__ 
 ```
 POSTMAN API get Call :http://localhost:8080/portal/employee/filter?sortBy=salary&sort=desc
 ```
