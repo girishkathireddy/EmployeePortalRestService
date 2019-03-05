@@ -7,7 +7,7 @@ To setup the project for review do the following:
 1. Download the project.
 2. Install  <a href="https://www.mkyong.com/maven/how-to-install-maven-in-windows/">apache maven</a> 
 3. Run command __mvn package__ to install the project dependencies.
-4. Run command __mvn tomcat7:run-war__ in the root directory.
+4. Run command __mvn tomcat7:run-war__ .
 5. Project <a href="https://github.com/girishkathireddy/EmployeePortalRestService/tree/master/src/main/resources">Sequence diagram and UML diagrams </a> 
 
 ## REST API 
