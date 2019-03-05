@@ -82,8 +82,8 @@ POSTMAN API get Call :http://localhost:8080/portal/employee/get/1
 ```
 __Response__
 ```
- {
-  	"firstName":"Blaise",
+ {	
+    "firstName":"Blaise",
     "lastName":"Pascal",
     "email":"pascal@gmail.com",
     "hireDate":"2001-01-10",
@@ -95,7 +95,7 @@ __Response__
  }
 ```
 
-### Get API call to Sort Empployee List ID:http://localhost:8080/portal/employee/filter?sortBy=salary&sort=desc
+### Get API call to Sort Empployee List:http://localhost:8080/portal/employee/filter?sortBy=salary&sort=desc
 
 ```
 POSTMAN API get Call :http://localhost:8080/portal/employee/filter?sortBy=salary&sort=desc
