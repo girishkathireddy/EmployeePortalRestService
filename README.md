@@ -6,7 +6,7 @@ Rest Service using Spring 5.x, Hibernate 5.x, Java 8 and Hsqldb
 To setup the project for review do the following:
 1. Install Java 8
 2. Download the project.
-3. Install  <a href="https://www.mkyong.com/maven/how-to-install-maven-in-windows/">apache maven</a> .(Follow Instruction number 2,3,4,5 to install Maven)
+3. Install  <a href="https://www.mkyong.com/maven/how-to-install-maven-in-windows/">apache maven</a> .(Follow instructions to install Maven)
 4. Run command __mvn package__ to install the project dependencies.
 5. Run command __mvn tomcat7:run-war__ .
 6. Project <a href="https://github.com/girishkathireddy/EmployeePortalRestService/tree/master/src/main/resources">Sequence diagram and UML diagrams </a> 
