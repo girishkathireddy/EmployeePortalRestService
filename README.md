@@ -21,9 +21,10 @@ __filterWords__: name,date,salary
 __sortOrderKeyWord__: asc,desc
 
 
-### Post API call for Employee Details http://localhost:8080/portal/employee/save
+### Post API call for Employee Details 
 __Input__ 
 ```
+URL: http://localhost:8080/portal/employee/save
  {
     "firstName":"Albert",
     "lastName":"Einstein",
@@ -40,7 +41,7 @@ __Response__
 ```
 {"Data saved"}
 ```
-### Get API call to retrive all Employees http://localhost:8080/portal/employee/getAll
+### Get API call to retrive all Employees 
 
 ```
 POSTMAN API get Call :http://localhost:8080/portal/employee/getAll
@@ -75,7 +76,7 @@ __Response__
 ]
 ```
 
-### Get API call for Employee by ID:http://localhost:8080/portal/employee/get/1
+### Get API call for Employee by ID
 
 ```
 POSTMAN API get Call :http://localhost:8080/portal/employee/get/1
@@ -95,7 +96,7 @@ __Response__
  }
 ```
 
-### Get API call to Sort Empployee List:http://localhost:8080/portal/employee/filter?sortBy=salary&sort=desc
+### Get API call to Sort Empployee List
 
 ```
 POSTMAN API get Call :http://localhost:8080/portal/employee/filter?sortBy=salary&sort=desc
